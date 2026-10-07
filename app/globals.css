@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: sans-serif;
+  /* Sunburst: alternating rays plus a warm glow in the center */
+  background:
+    radial-gradient(circle, rgba(255, 244, 200, 0.9), transparent 60%),
+    repeating-conic-gradient(#ffb347 0deg 10deg, #ffcc5c 10deg 20deg);
+}
+
+main {
+  width: 320px;
+  padding: 32px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+button {
+  background: #ff8c00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

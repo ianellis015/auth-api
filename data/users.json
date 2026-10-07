@@ -1,0 +1,26 @@
+[
+  {
+    "userId": "01",
+    "firstName": "Taylor",
+    "lastName": "Morgan",
+    "email": "taylor@email.com",
+    "password": "demo123",
+    "city": "Chicago"
+  },
+  {
+    "userId": "02",
+    "firstName": "Ian",
+    "lastName": "Ellis",
+    "email": "ian@email.com",
+    "password": "password123",
+    "city": "New York"
+  },
+  {
+    "userId": "03",
+    "firstName": "Jordan",
+    "lastName": "Lee",
+    "email": "jordan@email.com",
+    "password": "welcome123",
+    "city": "Austin"
+  }
+]
